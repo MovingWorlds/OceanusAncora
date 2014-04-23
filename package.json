@@ -1,0 +1,32 @@
+{
+  "name": "oceanusancora",
+  "version": "0.0.1",
+  "description": "DigitalOcean API client wrapper",
+  "keywords": [
+    "digitalocean",
+    "digital",
+    "ocean",
+    "API",
+    "cloud",
+    "droplet",
+    "server"
+  ],
+  "homepage": "https://github.com/MovingWorlds/oceanusancora",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/MovingWorlds/oceanusancora.git"
+  },
+  "main": "./lib/client.js",
+  "scripts": {
+    "test": "tap ./test"
+  },
+  "author": "Farrin Reid <blakmatrix@gmail.com>",
+  "dependencies": {
+    "request": "2.34.x",
+    "nconf": "0.6.x"
+  },
+  "devDependencies": {
+    "tap": "0.4.x",
+    "nock": "0.27.x"
+  }
+}
